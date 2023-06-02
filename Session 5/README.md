@@ -118,8 +118,10 @@ Estimated Total Size (MB): 2.94
 # Results (Accuracy and Loss)
 <br>
 
-![Results](Results\Session 5\result.png)
+![Results](../Results/Session%205/result.png)
+
 <br>
+
 # How to Run
 1. Install all the prerequisites.
 2. Clone this repository.
