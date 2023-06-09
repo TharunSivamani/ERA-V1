@@ -14,6 +14,7 @@ The basic idea behind backpropagation is to propagate the errors backward throug
 <br>
 
 ![simple_perceptron_model-1](../../Results/Session%206/nn.png)
+
 <br>
 
 ## Weight Initialization
@@ -96,5 +97,8 @@ The backpropagation algorithm is used to train the neural network. It involves t
 
 
 <br>
-<br>
+
+
+
+
 
