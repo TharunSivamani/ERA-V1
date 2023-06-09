@@ -98,7 +98,14 @@ The backpropagation algorithm is used to train the neural network. It involves t
 
 <br>
 
+## Result Graphs
+<br>
 
+| Image                      | Learning Rate | Image                      | Learning Rate |
+| :--------------------------: | :-------------: | :--------------------------: | :-------------: |
+| ![Image 0.1](../../Results/Session%206/lr0.1.png)    |   LR=0.1      | ![Image 0.5](../../Results/Session%206/lr0.5.png)    |   LR=0.5      |
+| ![Image 0.2](../../Results/Session%206/lr0.2.png)    |   LR=0.2      | ![Image 0.8](../../Results/Session%206/lr0.8.png)    |   LR=0.8      |
+| ![Image 1.0](../../Results/Session%206/lr1.0.png)    |   LR=1.0      | ![Image 2.0](../../Results/Session%206/lr2.0.png)    |   LR=2.0      |
 
 
 
