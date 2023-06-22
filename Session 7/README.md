@@ -36,7 +36,7 @@ Your new target is:
 
 <br>
 
-# Model 1
+# Model 1 - [Notebook](https://github.com/TharunSivamani/ERA-V1/blob/main/Session%207/S7_Model1.ipynb)
 
 ### Target:
 
@@ -60,7 +60,7 @@ Your new target is:
 <br>
 
 
-# Model 2
+# Model 2 - [Notebook](https://github.com/TharunSivamani/ERA-V1/blob/main/Session%207/S7_Model2.ipynb)
 
 ### Target:
 
@@ -79,7 +79,7 @@ Your new target is:
 
 <br>
 
-# Model 3
+# Model 3 - [Notebook](https://github.com/TharunSivamani/ERA-V1/blob/main/Session%207/S7_Model3.ipynb)
 
 ### Target:
 
@@ -98,7 +98,7 @@ Your new target is:
 
 <br>
 
-# Model 4
+# Model 4 - [Notebook](https://github.com/TharunSivamani/ERA-V1/blob/main/Session%207/S7_Model4.ipynb)
 
 ### Target
 
@@ -117,7 +117,7 @@ Your new target is:
 
 <br>
 
-# Model 5
+# Model 5 - [Notebook](https://github.com/TharunSivamani/ERA-V1/blob/main/Session%207/S7_Model5.ipynb)
 
 ### Target
 
@@ -136,7 +136,7 @@ Your new target is:
 
 <br>
 
-# Model 6
+# Model 6 - [Notebook](https://github.com/TharunSivamani/ERA-V1/blob/main/Session%207/S7_Model6.ipynb)
 
 ### Target   
 
