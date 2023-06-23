@@ -39,9 +39,9 @@ This repository contains the various types of normalization model's trained on `
 
 ![GN](../Results/Session%208/gn.png)
 
-Parameters : 47,818
-Best Train Accuracy : 76.55
-Best Test Accuracy : 72.54
+Parameters : 47,818  
+Best Train Accuracy : 76.55  
+Best Test Accuracy : 72.54  
 
 ## Misclassified Images
 
@@ -49,11 +49,15 @@ Best Test Accuracy : 72.54
 
 # Batch Normalisation 
 
+![bn-maths](../Results/Session%208/bn_maths.png)
+
+<br>
+
 ![BN](../Results/Session%208/bn.png)
 
-Parameters : 47,818
-Best Train Accuracy : 81.27
-Best Test Accuracy : 76.70
+Parameters : 47,818  
+Best Train Accuracy : 81.27   
+Best Test Accuracy : 76.70   
 
 ## Misclassified Images
 
@@ -65,9 +69,9 @@ Best Test Accuracy : 76.70
 
 ![LN](../Results/Session%208/ln.png)
 
-Parameters : 47,818
-Best Train Accuracy : 76.24
-Best Test Accuracy : 72.98
+Parameters : 47,818  
+Best Train Accuracy : 76.24  
+Best Test Accuracy : 72.98  
 
 <br>
 
