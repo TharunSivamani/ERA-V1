@@ -65,6 +65,10 @@ Write a new network that
 
 <br>
 
+![img](../Results/Session%209/img.png)
+
+<br>
+
 # Albumentation - [Docs](https://albumentations.ai/docs/)
 <br>
 
@@ -81,6 +85,10 @@ def __init__(self):
             ToTensorV2()
         ])
 ```
+
+<br>
+
+![viz](../Results/Session%209/viz.png)
 
 <br>
 
@@ -194,6 +202,17 @@ Best Testing Accuracy  : `85.08`
 
 <br>
 
+![res](../Results/Session%209/graphs.png)
+
+<br>
+
+# Misclassified Images
+<br>
+
+![mis](../Results/Session%209/misclassified.png)
+
+<br>
+
 # Receptive Field Calculations
 
 <br>
@@ -217,3 +236,5 @@ Best Testing Accuracy  : `85.08`
 | O | output     | 14     | 1      | 48   | 1    | 1    | 1      | 0       | 1        | 1                | 48    | 1     | 1     |
 
 <br>
+
+# Training Logs - [Link](./training_logs.md)
