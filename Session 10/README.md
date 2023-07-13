@@ -66,3 +66,136 @@ def __init__(self):
 ```
 
 <br>
+
+# Data
+
+<br>
+
+![train_data](../Results/Session%2010/train.png)
+
+<br>
+
+![test_data](../Results/Session%2010/test.png)
+
+<br>
+
+# Model Summary
+
+<br>
+
+```python
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 64, 32, 32]           1,728
+       BatchNorm2d-2           [-1, 64, 32, 32]             128
+              ReLU-3           [-1, 64, 32, 32]               0
+           Dropout-4           [-1, 64, 32, 32]               0
+         ConvLayer-5           [-1, 64, 32, 32]               0
+ Make_Custom_Layer-6           [-1, 64, 32, 32]               0
+            Conv2d-7          [-1, 128, 32, 32]          73,728
+         MaxPool2d-8          [-1, 128, 16, 16]               0
+       BatchNorm2d-9          [-1, 128, 16, 16]             256
+             ReLU-10          [-1, 128, 16, 16]               0
+          Dropout-11          [-1, 128, 16, 16]               0
+        ConvLayer-12          [-1, 128, 16, 16]               0
+           Conv2d-13          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-14          [-1, 128, 16, 16]             256
+             ReLU-15          [-1, 128, 16, 16]               0
+          Dropout-16          [-1, 128, 16, 16]               0
+        ConvLayer-17          [-1, 128, 16, 16]               0
+           Conv2d-18          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-19          [-1, 128, 16, 16]             256
+             ReLU-20          [-1, 128, 16, 16]               0
+          Dropout-21          [-1, 128, 16, 16]               0
+        ConvLayer-22          [-1, 128, 16, 16]               0
+Make_Custom_Layer-23          [-1, 128, 16, 16]               0
+           Conv2d-24          [-1, 256, 16, 16]         294,912
+        MaxPool2d-25            [-1, 256, 8, 8]               0
+      BatchNorm2d-26            [-1, 256, 8, 8]             512
+             ReLU-27            [-1, 256, 8, 8]               0
+          Dropout-28            [-1, 256, 8, 8]               0
+        ConvLayer-29            [-1, 256, 8, 8]               0
+Make_Custom_Layer-30            [-1, 256, 8, 8]               0
+           Conv2d-31            [-1, 512, 8, 8]       1,179,648
+        MaxPool2d-32            [-1, 512, 4, 4]               0
+      BatchNorm2d-33            [-1, 512, 4, 4]           1,024
+             ReLU-34            [-1, 512, 4, 4]               0
+          Dropout-35            [-1, 512, 4, 4]               0
+        ConvLayer-36            [-1, 512, 4, 4]               0
+           Conv2d-37            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-38            [-1, 512, 4, 4]           1,024
+             ReLU-39            [-1, 512, 4, 4]               0
+          Dropout-40            [-1, 512, 4, 4]               0
+        ConvLayer-41            [-1, 512, 4, 4]               0
+           Conv2d-42            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-43            [-1, 512, 4, 4]           1,024
+             ReLU-44            [-1, 512, 4, 4]               0
+          Dropout-45            [-1, 512, 4, 4]               0
+        ConvLayer-46            [-1, 512, 4, 4]               0
+Make_Custom_Layer-47            [-1, 512, 4, 4]               0
+        MaxPool2d-48            [-1, 512, 1, 1]               0
+          Flatten-49                  [-1, 512]               0
+           Linear-50                   [-1, 10]           5,130
+================================================================
+Total params: 6,573,130
+Trainable params: 6,573,130
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 10.51
+Params size (MB): 25.07
+Estimated Total Size (MB): 35.59
+----------------------------------------------------------------
+```
+
+<br>
+
+# One Cycle LR Policy
+
+<br>
+
+* Sets the learning rate of each parameter group according to the 1cycle learning rate policy. 
+* The 1cycle policy anneals the learning rate from an initial learning rate to some maximum learning rate and then from that maximum learning rate to some minimum learning rate much lower than the initial learning rate. 
+
+<br>
+
+![one_cycle](../Results/Session%2010/one_cycle.png)
+
+<br>
+
+# Results
+
+<br>
+
+![results](../Results/Session%2010/model_viz.png)
+
+<br>
+
+# Mis-Classified Images
+
+<br>
+
+![mis](../Results/Session%2010/mis.png)
+
+<br>
+
+# All Class Accuracy
+
+<br>
+
+```python
+Accuracy for class: plane is 94.3 %
+Accuracy for class: car   is 97.8 %
+Accuracy for class: bird  is 91.5 %
+Accuracy for class: cat   is 84.1 %
+Accuracy for class: deer  is 94.1 %
+Accuracy for class: dog   is 88.7 %
+Accuracy for class: frog  is 95.5 %
+Accuracy for class: horse is 94.6 %
+Accuracy for class: ship  is 95.7 %
+Accuracy for class: truck is 94.7 %
+```
+
+<br>
+
+# [Training Logs](training_logs.md)
