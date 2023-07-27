@@ -192,3 +192,5 @@ Accuracy for class: truck is 95.8 %
 ```
 
 <br>
+
+# [Training Logs](training_logs.md)
