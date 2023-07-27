@@ -117,3 +117,78 @@ Params size (MB): 44.70
 Estimated Total Size (MB): 359.66
 ============================================================================================================================================
 ```
+
+<br>
+
+# Train Data
+
+<br>
+
+![train_data](../Results/Session%2011/train.png)
+
+<br>
+
+# Test Data
+
+<br>
+
+![test_data](../Results/Session%2011/test.png)
+
+<br>
+
+# One Cycle LR Policy
+
+<br>
+
+* Sets the learning rate of each parameter group according to the 1cycle learning rate policy. 
+* The 1cycle policy anneals the learning rate from an initial learning rate to some maximum learning rate and then from that maximum learning rate to some minimum learning rate much lower than the initial learning rate. 
+
+<br>
+
+![one_cycle](../Results/Session%2011/lr.png)
+
+<br>
+
+# Results
+
+<br>
+
+![train](../Results/Session%2011/train_.png)
+![test](../Results/Session%2011/test_.png)
+
+<br>
+
+# Mis-Classified Images
+
+<br>
+
+![mis](../Results/Session%2011/mis.png)
+
+<br>
+
+# GradCam 
+
+<br>
+
+![gradCam](../Results/Session%2011/gradcam.png)
+
+<br>
+
+# All Class Accuracy
+
+<br>
+
+```python
+Accuracy for class: plane is 94.1 %
+Accuracy for class: car   is 97.2 %
+Accuracy for class: bird  is 88.2 %
+Accuracy for class: cat   is 82.8 %
+Accuracy for class: deer  is 94.1 %
+Accuracy for class: dog   is 87.4 %
+Accuracy for class: frog  is 94.7 %
+Accuracy for class: horse is 95.5 %
+Accuracy for class: ship  is 96.3 %
+Accuracy for class: truck is 95.8 %
+```
+
+<br>
