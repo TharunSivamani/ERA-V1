@@ -432,4 +432,12 @@ Estimated Total Size (MB): 1465.77
 
 <br>
 
+# MAP Value
+
+```
+MAP: 0.4010431170463562
+```
+
+<br>
+
 # Training Logs [Link](./training_logs.md)
