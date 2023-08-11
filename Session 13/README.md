@@ -431,3 +431,5 @@ Estimated Total Size (MB): 1465.77
 ```
 
 <br>
+
+# Training Logs [Link](./training_logs.md)
