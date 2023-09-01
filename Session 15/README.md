@@ -86,6 +86,25 @@ As output of forward and update the metric returns the following output:
 
 <br>
 
+# Model Summary
+
+```python
+  | Name            | Type             | Params
+-----------------------------------------------------
+0 | net             | Transformer      | 75.1 M
+1 | loss_fn         | CrossEntropyLoss | 0     
+2 | char_error_rate | _CharErrorRate   | 0     
+3 | word_error_rate | _WordErrorRate   | 0     
+4 | bleu_score      | _BLEUScore       | 0     
+-----------------------------------------------------
+75.1 M    Trainable params
+0         Non-trainable params
+75.1 M    Total params
+300.532   Total estimated model params size (MB)
+```
+
+<br>
+
 # Inference
 
 ![inf](../Results/Session%2015/inference.png)
