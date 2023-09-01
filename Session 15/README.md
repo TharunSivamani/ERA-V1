@@ -110,3 +110,27 @@ As output of forward and update the metric returns the following output:
 ![inf](../Results/Session%2015/inference.png)
 
 <br>
+
+# Results
+
+<br>
+
+```python
+----------------------------------------------------------------------
+Epoch : 9
+Training Loss : 3.416662
+Validation Loss : 4.758570
+----------------------------------------------------------------------
+SOURCE    := ['The dying man lay with closed eyes, but at intervals the muscles of his forehead worked as if he were thinking deeply and intently.']
+EXPECTED  := ['Il moribondo giaceva, con gli occhi chiusi, ma sulla fronte, sia pure di rado, si movevano dei muscoli, come in un uomo che pensi profondamente, con tensione.']
+PREDICTED := Il malato era rimasto su di lui , ma per la fronte si sforzava di calmarsi che gli sforzi , come se volesse pensare e .
+----------------------------------------------------------------------
+Validation CER  : 0.6202531456947327
+Validation WER  : 0.9259259104728699
+Validation BLEU : 0.0
+----------------------------------------------------------------------
+```
+
+<br>
+
+# Training Logs - [Link](training_logs.md)
