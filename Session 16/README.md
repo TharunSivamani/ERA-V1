@@ -43,3 +43,49 @@ Link - [Dataset](https://huggingface.co/datasets/opus_books)
 * Target Language : `French`
 
 <br>
+
+```python
+Length of filtered dataset : 120677
+Train DS Size : 108609
+  Val DS Size : 12068
+Max length of source sentence: 150
+Max length of target sentence: 159
+Source Vocab Size : 30000
+Target Vocab Size : 30000
+```
+
+<br>
+
+# Metrics Used
+
+## Char Error Rate (CER)
+
+* Character Error Rate (CER) is a metric of the performance of an automatic speech recognition (ASR) system.
+
+* This value indicates the percentage of characters that were incorrectly predicted. The lower the value, the better the performance of the ASR system with a CharErrorRate of 0 being a perfect score. Character error rate can then be computed as: 
+
+* $CharErrorRate = \frac{S + D + I}{N} = \frac{S + D + I}{S + D + C}$`
+
+## Word Error Rate
+
+* Word error rate (WordErrorRate) is a common metric of the performance of an automatic speech recognition.
+
+* This value indicates the percentage of words that were incorrectly predicted. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score. Word error rate can then be computed as:
+
+* $WER = \frac{S + D + I}{N} = \frac{S + D + I}{S + D + C}$
+
+## BLEU Score
+
+Calculate BLEU score of machine translated text with one or more references.
+
+* As input to forward and update the metric accepts the following input:
+
+    preds (Sequence): An iterable of machine translated corpus
+
+    target (Sequence): An iterable of iterables of reference corpus
+
+As output of forward and update the metric returns the following output:
+
+* bleu (Tensor): A tensor with the BLEU Score
+
+<br>
