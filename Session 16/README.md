@@ -90,6 +90,12 @@ As output of forward and update the metric returns the following output:
 
 <br>
 
+# Parameter Sharing
+
+![p_s](../Results/Session%2016/parameter_sharing.png)
+
+<br>
+
 # Architecture
 
 ```python
