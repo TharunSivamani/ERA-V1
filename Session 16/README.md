@@ -29,7 +29,7 @@
 
 # Architecture
 
-![arch](encoder.png)
+![arch](../Results/Session%2016/encoder.png)
 
 <br>
 
@@ -89,3 +89,71 @@ As output of forward and update the metric returns the following output:
 * bleu (Tensor): A tensor with the BLEU Score
 
 <br>
+
+# Architecture
+
+```python
+  | Name            | Type             | Params
+-----------------------------------------------------
+0 | net             | Transformer      | 68.1 M
+1 | loss_fn         | CrossEntropyLoss | 0     
+2 | char_error_rate | CharErrorRate    | 0     
+3 | word_error_rate | WordErrorRate    | 0     
+4 | bleu_score      | BLEUScore        | 0     
+-----------------------------------------------------
+68.1 M    Trainable params
+0         Non-trainable params
+68.1 M    Total params
+272.582   Total estimated model params size (MB)
+```
+
+<br>
+
+# Inference
+
+![inf](../Results/Session%2016/inference.png)
+
+<br>
+
+# Results
+
+```python
+----------------------------------------------------------------------
+Epoch 22 :
+----------------------------------------------------------------------
+SOURCE    := If the box had fallen at this place it must have been swept away by the waves.
+EXPECTED  := Si la boîte était tombée en cet endroit, elle avait dû être entraînée par les flots.
+PREDICTED := Si la boîte était tombée à cette place , elle devait être reprise par les lames .
+----------------------------------------------------------------------
+Validation CER  : 0.3214285671710968
+Validation WER  : 0.5625
+Validation BLEU : 0.0
+Training Loss   :  1.79997
+----------------------------------------------------------------------
+Epoch 23 :
+----------------------------------------------------------------------
+SOURCE    := If the box had fallen at this place it must have been swept away by the waves.
+EXPECTED  := Si la boîte était tombée en cet endroit, elle avait dû être entraînée par les flots.
+PREDICTED := Si la boîte était tombée à cette place , elle devait être reprise par les lames .
+----------------------------------------------------------------------
+Validation CER  : 0.3214285671710968
+Validation WER  : 0.5625
+Validation BLEU : 0.0
+Training Loss   :  1.79175
+----------------------------------------------------------------------
+Epoch 24 :
+----------------------------------------------------------------------
+SOURCE    := If the box had fallen at this place it must have been swept away by the waves.
+EXPECTED  := Si la boîte était tombée en cet endroit, elle avait dû être entraînée par les flots.
+PREDICTED := Si la boîte était tombée à cette place , elle devait être reprise par les lames .
+----------------------------------------------------------------------
+Validation CER  : 0.3214285671710968
+Validation WER  : 0.5625
+Validation BLEU : 0.0
+Training Loss   :  1.78468
+----------------------------------------------------------------------
+```
+
+<br>
+
+# Training Logs - [Link](training_logs.md)
