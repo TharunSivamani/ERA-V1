@@ -4,6 +4,8 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![PyTorch 2.0](https://img.shields.io/badge/torch-v2.0-brightgreen)](https://pytorch.org/docs/stable/index.html)
+[![Torchvision 0.15](https://img.shields.io/badge/torchvision-v0.15-green)](https://pytorch.org/vision/stable/index.html)
+[![Transformers 4.33.1](https://img.shields.io/badge/transformers-v4.33.1-red)](https://huggingface.co/docs/transformers/index)
 
 # Task
 
