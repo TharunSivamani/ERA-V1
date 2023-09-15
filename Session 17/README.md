@@ -152,3 +152,68 @@ Estimated Total Size (MB): 3540.67
 ```
 
 <br>
+
+# Training Logs
+
+<br>
+
+## BERT
+
+<br>
+
+```python
+it: 9900  | loss 4.26  | Δw: 10.778
+it: 9910  | loss 4.2   | Δw: 11.104
+it: 9920  | loss 4.3   | Δw: 10.65
+it: 9930  | loss 4.3   | Δw: 11.046
+it: 9940  | loss 4.24  | Δw: 11.006
+it: 9950  | loss 4.24  | Δw: 10.883
+it: 9960  | loss 4.23  | Δw: 10.773
+it: 9970  | loss 4.27  | Δw: 10.874
+it: 9980  | loss 4.31  | Δw: 10.907
+it: 9990  | loss 4.21  | Δw: 11.383
+```
+
+<br>
+
+## GPT
+
+<br>
+
+```python
+step          0 | train loss 10.6856 | val loss 10.6957
+step        500 | train loss 0.5269  | val loss 8.0400
+step       1000 | train loss 0.1659  | val loss 9.3979
+step       1500 | train loss 0.1406  | val loss 10.1811
+step       2000 | train loss 0.1274  | val loss 10.2829
+step       2500 | train loss 0.1269  | val loss 10.6556
+step       3000 | train loss 0.1191  | val loss 10.5359
+step       3500 | train loss 0.1131  | val loss 10.9533
+step       4000 | train loss 0.1119  | val loss 10.7073
+step       4500 | train loss 0.1064  | val loss 11.1684
+step       4999 | train loss 0.1006  | val loss 10.9910
+```
+
+<br>
+
+## ViT
+
+```python
+Epoch: 1 | train_loss: 3.5604 | train_acc: 0.2891 | test_loss: 2.9965 | test_acc: 0.5417
+Epoch: 2 | train_loss: 2.1893 | train_acc: 0.2734 | test_loss: 2.7851 | test_acc: 0.2604
+Epoch: 3 | train_loss: 1.4335 | train_acc: 0.4180 | test_loss: 1.3895 | test_acc: 0.2604
+Epoch: 4 | train_loss: 1.1844 | train_acc: 0.2891 | test_loss: 1.1820 | test_acc: 0.1979
+Epoch: 5 | train_loss: 1.1453 | train_acc: 0.3828 | test_loss: 1.7617 | test_acc: 0.1979
+Epoch: 6 | train_loss: 1.1861 | train_acc: 0.3320 | test_loss: 1.2080 | test_acc: 0.1979
+Epoch: 7 | train_loss: 1.1100 | train_acc: 0.4219 | test_loss: 1.4391 | test_acc: 0.1979
+Epoch: 8 | train_loss: 1.1615 | train_acc: 0.2695 | test_loss: 1.0953 | test_acc: 0.2604
+Epoch: 9 | train_loss: 1.1251 | train_acc: 0.2969 | test_loss: 1.2196 | test_acc: 0.1979
+Epoch: 10 | train_loss: 1.2304 | train_acc: 0.2812 | test_loss: 1.1582 | test_acc: 0.2604
+```
+<br>
+
+# Results - ViT
+
+<br>
+
+![ViT results](../Results/Session%2017/vit_graph.png)
