@@ -177,7 +177,7 @@ def kl_divergence(self, z, mu, std):
 
 <br>
 
-![mnist](../../Results/Session%2018/mnist.png)
+![mnist](../Results/Session%2018/mnist.png)
 
 <br>
 
@@ -185,6 +185,6 @@ def kl_divergence(self, z, mu, std):
 
 <br>
 
-![cifar](../../Results/Session%2018/cifar.png)
+![cifar](../Results/Session%2018/cifar.png)
 
 <br>
