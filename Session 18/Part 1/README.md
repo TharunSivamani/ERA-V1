@@ -112,14 +112,11 @@ Estimated Total Size (MB): 2785103.45
 
 <br>
 
-<div style="display: flex; gap: 20px; flex-direction: row;">
-    <div>
-        <img src="../../Results/Session 18/11.png" alt="Image 1" width="200">
-    </div>
-    <div>
-        <img src="../../Results/Session 18/1.png" alt="Image 2" width="200">
-    </div>
-</div>
+![11](../../Results/Session%2018/11.png)
+
+<br>
+
+![1](../../Results/Session%2018/1.png)
 
 <br>
 
@@ -127,14 +124,11 @@ Estimated Total Size (MB): 2785103.45
 
 <br>
 
-<div style="display: flex; gap: 20px; flex-direction: row;">
-    <div>
-        <img src="../../Results/Session 18/22.png" alt="Image 1" width="200">
-    </div>
-    <div>
-        <img src="../../Results/Session 18/2.png" alt="Image 2" width="200">
-    </div>
-</div>
+![22](../../Results/Session%2018/22.png)
+
+<br>
+
+![2](../../Results/Session%2018/2.png)
 
 <br>
 
@@ -142,14 +136,11 @@ Estimated Total Size (MB): 2785103.45
 
 <br>
 
-<div style="display: flex; gap: 20px; flex-direction: row;">
-    <div>
-        <img src="../../Results/Session 18/33.png" alt="Image 1" width="200">
-    </div>
-    <div>
-        <img src="../../Results/Session 18/3.png" alt="Image 2" width="200">
-    </div>
-</div>
+![33](../../Results/Session%2018/33.png)
+
+<br>
+
+![3](../../Results/Session%2018/3.png)
 
 <br>
 
@@ -157,13 +148,10 @@ Estimated Total Size (MB): 2785103.45
 
 <br>
 
-<div style="display: flex; gap: 20px; flex-direction: row;">
-    <div>
-        <img src="../../Results/Session 18/44.png" alt="Image 1" width="200">
-    </div>
-    <div>
-        <img src="../../Results/Session 18/4.png" alt="Image 2" width="200">
-    </div>
-</div>
+![44](../../Results/Session%2018/44.png)
+
+<br>
+
+![4](../../Results/Session%2018/4.png)
 
 <br>
