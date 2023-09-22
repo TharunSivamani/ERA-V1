@@ -164,3 +164,23 @@ def kl_divergence(self, z, mu, std):
     kl = kl.sum(-1)
     return kl
 ```
+
+# Results
+
+<br>
+
+# MNIST
+
+<br>
+
+![mnist](../../Results/Session%2018/mnist.png)
+
+<br>
+
+# CIFAR10
+
+<br>
+
+![cifar](../../Results/Session%2018/cifar.png)
+
+<br>
