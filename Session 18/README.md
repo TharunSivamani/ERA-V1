@@ -128,6 +128,10 @@ Variational Autoencoders (VAEs) have one fundamentally unique property that sepa
 
 <br>
 
+# Latent Space
+
+<br>
+
 ![vael](../Results/Session%2018/vael.png)
 
 <br>
