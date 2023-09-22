@@ -44,3 +44,62 @@ Now do this for CIFAR10 and share 25 images (1 stacked image)!
 * its label (one hot encoded vector sent through an embedding layer)
 
 <br>
+
+# Solution
+
+<br>
+
+# UNET 
+
+<br>
+
+![unet](../Results/Session%2018/unet.gif)
+
+<br>
+
+* U-Net is a convolutional neural network that was developed for biomedical image segmentation at the Computer Science Department of the University of Freiburg. 
+* The network is based on the fully Convolutional neural network and its architecture was modified and extended to work with fewer training images and to yield more precise segmentation.
+
+<br>
+
+# Segmentation Tasks
+
+<br>
+
+## Binary Semantic Segmentation
+
+<br>
+
+![cat](../Results/Session%2018/cat_mask.jpg)
+
+<br>
+
+## Multilevel Semantic Segmentation
+
+<br>
+
+![cycle](../Results/Session%2018/cycle.png)
+
+<br>
+
+# Dice Loss
+
+<br>
+
+```python
+def dice_loss(pred, target):
+    smooth = 1e-5
+    
+    # flatten predictions and targets
+    pred = pred.view(-1)
+    target = target.view(-1)
+    
+    intersection = (pred * target).sum()
+    union = pred.sum() + target.sum()
+    
+    dice = (2. * intersection + smooth) / (union + smooth)
+    
+    return 1 - dice 
+```
+
+<br>
