@@ -103,3 +103,67 @@ Estimated Total Size (MB): 2785103.45
 ![img](../../Results/Session%2018/oxfordOrg.png)
 
 <br>
+
+# Results
+
+<br>
+
+# 1. MP + Tr + BCE
+
+<br>
+
+<div style="display: flex; gap: 20px;">
+    <div>
+        <img src="../../Results/Session 18/11.png" alt="Image 1" width="200">
+    </div>
+    <div>
+        <img src="../../Results/Session 18/1.png" alt="Image 2" width="200">
+    </div>
+</div>
+
+<br>
+
+# 2. MP + Tr + Dice Loss
+
+<br>
+
+<div style="display: flex; gap: 20px;">
+    <div>
+        <img src="../../Results/Session 18/22.png" alt="Image 1" width="200">
+    </div>
+    <div>
+        <img src="../../Results/Session 18/2.png" alt="Image 2" width="200">
+    </div>
+</div>
+
+<br>
+
+# 3. StrConv + Tr + BCE
+
+<br>
+
+<div style="display: flex; gap: 20px;">
+    <div>
+        <img src="../../Results/Session 18/33.png" alt="Image 1" width="200">
+    </div>
+    <div>
+        <img src="../../Results/Session 18/3.png" alt="Image 2" width="200">
+    </div>
+</div>
+
+<br>
+
+# 4. StrConv + Ups + Dice Loss
+
+<br>
+
+<div style="display: flex; gap: 20px;">
+    <div>
+        <img src="../../Results/Session 18/44.png" alt="Image 1" width="200">
+    </div>
+    <div>
+        <img src="../../Results/Session 18/4.png" alt="Image 2" width="200">
+    </div>
+</div>
+
+<br>
