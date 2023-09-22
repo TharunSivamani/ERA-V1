@@ -112,7 +112,7 @@ Estimated Total Size (MB): 2785103.45
 
 <br>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; flex-direction: row;">
     <div>
         <img src="../../Results/Session 18/11.png" alt="Image 1" width="200">
     </div>
@@ -127,7 +127,7 @@ Estimated Total Size (MB): 2785103.45
 
 <br>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; flex-direction: row;">
     <div>
         <img src="../../Results/Session 18/22.png" alt="Image 1" width="200">
     </div>
@@ -142,7 +142,7 @@ Estimated Total Size (MB): 2785103.45
 
 <br>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; flex-direction: row;">
     <div>
         <img src="../../Results/Session 18/33.png" alt="Image 1" width="200">
     </div>
@@ -157,7 +157,7 @@ Estimated Total Size (MB): 2785103.45
 
 <br>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; flex-direction: row;">
     <div>
         <img src="../../Results/Session 18/44.png" alt="Image 1" width="200">
     </div>
