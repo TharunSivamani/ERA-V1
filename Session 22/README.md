@@ -9,3 +9,8 @@
 
 
 <br>
+
+# Task
+
+* Set up the complete code on Amazon Sagemaker and train the model
+* Train the model such that it reaches 3.49 (basically less than 3.5) on the loss
