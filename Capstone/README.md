@@ -1,4 +1,4 @@
-# Capstone 
+# ERA V1 - Capstone 
 
 # MultiModal Phi2
 
@@ -6,16 +6,18 @@
 
 # Task    
 
-You are going to make a multi-modal LLM that can take these inputs:
+You are going to modify phi-2 into a multi-modal LLM that can take these inputs:
 1. Text
 2. Image
 3. Audio 
 
-The output remains text for us. Here are the guidelines:   
+The output will be the text format of all those inputs.
+
+<br>
 
 ### Training:   
 
-1. Image:
+1. **Image**:
     - Use the original Instruct 150k dataset, and use CLIP to get the image embeddings:   
     - either run it in real-time (need more GPU), or   
     - store the embeddings (basically preprocess and store)      
@@ -24,14 +26,14 @@ The output remains text for us. Here are the guidelines:
 
 <br>
 
-2. Audio:   
+2. **Audio**:   
     - You need to use Whisper to perform ASR. 
     - Add a projection layer for whisper output (which is text only)
     - This audio part "should" not require any training, but a pipeline from your end to link it properly to your model
 
 <br>
 
-3. Text:   
+3. **Text**:   
     - You are going to use Microsoft's Phi-2 or any other model and generate data. Recommend you generate this data in parallel, don't generate and store everything as that would be a very very large dataset
     - You are going to collect "some" clean data (100MB when zipped). This data CAN be generated from Phi-2 and stored.
     - You are going to use the same tokenizer and other data structures 
@@ -44,12 +46,14 @@ The output remains text for us. Here are the guidelines:
 
 # Solution
 
+<br>
+
 ## Areas of Improvement
 
-1. More datasets can be used for both pre-training and fine-tuning.
-2. Number of layers in the Projection model can be experimented for better predictions.
-3. More Audio libraries can be implemented for better audio extraction and transcription.
-4. Lighter version of CLIP can be tried.
+1. Combination / Collection of various datasets can be used for both pre-training and fine-tuning.
+2. Layer Count in the projection layer can be experimented and documented to find a better select.
+3. More modelling for Audio can implemented for improved quality extraction and transcription.
+4. Lighter version of CLIP can be trained and tried.
 
 <br>
 
