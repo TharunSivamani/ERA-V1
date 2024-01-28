@@ -98,81 +98,81 @@ iter 3000 step 750: loss 7.1346, LR: 0.005772, iter time: 97.59ms
 # Projection Layer Training Logs
 
 ```python
-Epoch : 1/15
-Loss  : 7.161831855773926
-Caption    :  ['A bedroom with a bed and small table near by.']
-Prediction :  ['_, to\n\n, a view, a table. the.\nThe']
-==============================
-Epoch : 2/15
-Loss  : 6.663324356079102
-Caption    :  ['A man riding a brown horse in uniform next to tall green trees.']
-Prediction :  [',_\n\n\n who a bike horse is a. to a buildings trees.\nA\nIN']
-==============================
-Epoch : 3/15
-Loss  : 6.508380889892578
-Caption    :  ['A couple of computer monitors sitting on top of a wooden desk.']
-Prediction :  ['_\n\n otherux of years science are on a of each desk desk.\nA#']
-==============================
-Epoch : 4/15
-Loss  : 6.26915168762207
-Caption    :  ['A woman in a hat sitting next to luggage.']
-Prediction :  [",_.ayactions's the red Online on to a.\nAThe\n\n\n\nThe"]
-==============================
-Epoch : 5/15
-Loss  : 6.324067115783691
-Caption    :  ['A child holding chocolate donut with both hands.']
-Prediction :  ['_",\',.men\'s a\n\'t\n a hands.\nTheTheTheTheThe']
-==============================
-Epoch : 6/15
-Loss  : 6.472545146942139
-Caption    :  ['two zebras are standing together in the woods']
-Prediction :  [",\n')'\neraas twenty a in in a jungle.TheThe"]
-==============================
-Epoch : 7/15
-Loss  : 6.051589488983154
-Caption    :  ['An orange truck driving down a street full of men in the back.']
-Prediction :  ['."\n otherxiety orange orangeA the road" of people walking suits middle of\nTheTheThe']
-==============================
-Epoch : 8/15
-Loss  : 5.945560932159424
-Caption    :  ['A couple of computer monitors sitting on top of a wooden desk.']
-Prediction :  ["_',\n yetux of weeks science the on a of each desk desk with\nTheThe\n\n\nThe"]
-==============================
-Epoch : 9/15
-Loss  : 5.876091480255127
-Caption    :  ['A man standing in front of a clock.']
-Prediction :  [',_\n"ffect woman on a of a building a']
-==============================
-Epoch : 10/15
-Loss  : 6.132306098937988
-Caption    :  ['A woman taking pictures on a busy street.']
-Prediction :  ['__" orangeuxAAA the beach street in\nTheThe\nThe']
-==============================
-Epoch : 11/15
-Loss  : 6.142520904541016
-Caption    :  ['A bedroom with a bed and small table near by.']
-Prediction :  ['."\n ofwardB a bathroom a a desk and the the TheTheThe']
-==============================
-Epoch : 12/15
-Loss  : 5.425280570983887
-Caption    :  ['a person walking on a snow covered field.']
-Prediction :  ["\n''. Output'.\n\n the pathman ground the"]
-==============================
-Epoch : 13/15
-Loss  : 5.1739821434021
-Caption    :  ['a woman siting at a restaurant table with a plate of mexican food on it ']
-Prediction :  ['_"\n\' sad\'. study\n the table. with a man of foodxican food and it andiph']
-==============================
-Epoch : 14/15
-Loss  : 4.745423316955566
-Caption    :  ['Two Zebras grazing together in a grassy area.']
-Prediction :  ['_"\n\') Threebrina Three\')? the fieldy me" Year']
-==============================
-Epoch : 15/15
-Loss  : 4.2316107749938965
-Caption    :  ['A child holding chocolate donut with both hands.']
-Prediction :  [',"\n.xeA rabbit paper\'t at a hands.\nTheThe']
-==============================
+Epoch : 1 | Loss  : 7.007693767547607
+
+Predicted :  [',,.,throp, is through a road. of people and suits middle.\nTheThe\n\n\n\n\n\nThe']
+Caption   :  ['An orange truck driving down a street full of men in the back.']
+----------------------------------------------
+Epoch : 2 | Loss  : 6.2756452560424805
+
+Predicted :  [',\n\n\n\n of years have a history and home table in\nThe']
+Caption   :  ['A couple of people with a laptop at a table.']
+----------------------------------------------
+Epoch : 3 | Loss  : 6.2440924644470215
+
+Predicted :  ['ed\n\n\n\n of years have a lot and a conference in\nTheThe\n\n\n\n\n\n\n\nThe']
+Caption   :  ['A couple of people with a laptop at a table.']
+----------------------------------------------
+Epoch : 4 | Loss  : 6.318299293518066
+
+Predicted :  [',,\n\n\n of years scientists are on a of a desk table.\nTheThe']
+Caption   :  ['A couple of computer monitors sitting on top of a wooden desk.']
+----------------------------------------------
+Epoch : 5 | Loss  : 5.873800277709961
+
+Predicted :  [',=,\n-hendas, not in. a field.The']
+Caption   :  ['two zebras are standing together in the woods']
+----------------------------------------------
+Epoch : 6 | Loss  : 5.042659282684326
+
+Predicted :  ['\n\n\n\n Dollarhas in in in the fieldy field.']
+Caption   :  ['Two Zebras grazing together in a grassy area.']
+----------------------------------------------
+Epoch : 7 | Loss  : 4.50493049621582
+
+Predicted :  ["._,\n =', a single, a table. the."]
+Caption   :  ['A bedroom with a bed and small table near by.']
+----------------------------------------------
+Epoch : 8 | Loss  : 3.7070505619049072
+
+Predicted :  ['..(\n\na through the tight- path.']
+Caption   :  ['a person walking on a snow covered field.']
+----------------------------------------------
+Epoch : 9 | Loss  : 3.745819091796875
+
+Predicted :  [' of.(\n =\'s the" and a man on a a box on']
+Caption   :  ['A woman in black jacket watching a cat eating from pizza box.']
+----------------------------------------------
+Epoch : 10 | Loss  : 3.5547196865081787
+
+Predicted :  ['\n.\n\n, of a few, appuccino. a to a desk case']
+Caption   :  ['A tray holding a sandwich and cappuccino, next to the pastry.']
+----------------------------------------------
+Epoch : 11 | Loss  : 2.904674530029297
+
+Predicted :  ['..end\nend in the red" on to a"']
+Caption   :  ['A woman in a hat sitting next to luggage.']
+----------------------------------------------
+Epoch : 12 | Loss  : 2.89656925201416
+
+Predicted :  ["._\n')\n who to do the road. a crosswalk."]
+Caption   :  ['A man prepares to cross the street at a crosswalk']
+----------------------------------------------
+Epoch : 13 | Loss  : 2.564776659011841
+
+Predicted :  [".(\n\n'), to make the bridge. a greenwalk."]
+Caption   :  ['A man prepares to cross the street at a crosswalk']
+----------------------------------------------
+Epoch : 14 | Loss  : 2.400994062423706
+
+Predicted :  ['..\n\nanOrangeload towards the road, of people and suits middle of\n\n\n\n\n\n\n\n<|endoftext|>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<|endoftext|>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<|endoftext|>\n\n\n\n\n\n<|endoftext|>']
+Caption   :  ['An orange truck driving down a street full of men in the back.']
+----------------------------------------------
+Epoch : 15 | Loss  : 2.8281171321868896
+
+Predicted :  ["\n.(\n\n's on on the table,, a man of foodzican food in it.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<|endoftext|>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<|endoftext|>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<|endoftext|><|endoftext|>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<|endoftext|>"]
+Caption   :  ['a woman siting at a restaurant table with a plate of mexican food on it ']
+----------------------------------------------
 ```
 
 <br>
